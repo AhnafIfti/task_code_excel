@@ -1,9 +1,7 @@
 import React from 'react';
-// import { Navbar, Nav } from 'rsuite';
 import { Link } from 'react-router-dom'
 
 const Navigate = () => {
-    // const [isNavOpen, setNavTab] = React.useState<boolean>(false);
 
     return (
         <div>

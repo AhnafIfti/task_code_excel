@@ -1,8 +1,19 @@
 import React from 'react';
 
-const MostEmailed = (props:any) => {
+const MostEmailed = () => {
     return (
         <div className="container">
+            <div className='row'>
+                <div className='col-6'></div>
+                <div className='col-6'>
+                    <form>
+                        <div className="my-3 d-flex">
+                            <input type="text" className="form-control" style={{marginRight: '0.5rem'}} />
+                            <button type="submit" className="btn btn-primary">Search</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
             <div className='row'>
                 <div className='col-6'>
                     <div className='m-3'>
