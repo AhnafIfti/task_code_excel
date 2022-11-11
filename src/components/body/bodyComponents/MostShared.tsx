@@ -4,12 +4,12 @@ import React, { useState, useEffect } from "react";
 const MostShared: React.FC = () => {
     const [getSearchElement, setSearchElement] = useState<string>('')
     const searchFilter = (event:any) => {
-        if(event.target.value != ''){
+        if(event.target.value !== ''){
             setSearchElement(event.target.value)
         }
     }
     useEffect(()=>{
-        if(getSearchElement != ''){
+        if(getSearchElement !== ''){
             console.log("+",getSearchElement)
         }
     }, [getSearchElement])
